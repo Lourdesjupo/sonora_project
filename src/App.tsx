@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './App.css'
 import mainImage from './assets/Images/an-aesthetic-image-with-a-university-student-worki.png'
 import CardMusic from './components/CardMusic'
