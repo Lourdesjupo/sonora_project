@@ -1,15 +1,18 @@
 .cards {
   display: flex;
   flex-direction: column;
+  padding:5px;
 }
 .card{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
 }
 .card_desc{
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
+  margin-top:15px;
+  align-items: center;
 }
 .card_name {
   margin:0px; 
@@ -17,11 +20,26 @@
 }
 
 .card_img {
-  width: 90px;
-  margin-bottom: 20px;
+  width: 60px;
+  margin-top: 20px;
   border-radius: 20px;
 }
 
 .card_audio {
   height: 30px;
+ }
+
+ @media (width >= 1020px) {
+.card{
+  display: flex;
+  flex-direction: row;
+}
+.card_desc{
+    margin-left: 30px;
+}
+.card_img {
+  width: 90px;
+  margin-bottom: 20px;
+  margin-top:0px;
+}
  }
