@@ -35,11 +35,13 @@
   flex-direction: row;
 }
 .card_desc{
-    margin-left: 30px;
+  margin-left: 30px;
+  margin-top:0px;
 }
 .card_img {
   width: 90px;
   margin-bottom: 20px;
   margin-top:0px;
+
 }
  }
