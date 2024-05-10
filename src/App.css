@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  line-height: 2em;
+  letter-spacing: 10px;
+  word-spacing: 2em;
+}
+.title_desc {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 10px;
+}
+.principal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.img_principal{ 
+  width: 450px;
+  mask-image: linear-gradient(black 90%, transparent);
+  border-radius: 15px;
+
+} 
+
+.logo {
+  height: 20px;
+  position: absolute;
+  left:20px;
+  top: 20px;
+}
+
+/* .logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
